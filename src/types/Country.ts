@@ -23,5 +23,8 @@ export interface CountryTS {
     ],
     borders: [
         string
+    ],
+    cur: [
+        string
     ]
 }

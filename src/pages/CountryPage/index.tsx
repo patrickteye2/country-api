@@ -6,6 +6,7 @@ import { useForm } from '../../contexts/ThemeContext';
 import { SingleCountry } from '../../components/SingleCountry';
 import { api } from '../../api';
 
+
 export const CountryPage = () => {
     const {name, code} = useParams()
     const {state} = useForm()
@@ -26,6 +27,8 @@ export const CountryPage = () => {
         setCountry(country)
         setLoading(false)
     }
+
+  
 
     return (
         <C.CountryPage theme={state.theme} >
@@ -48,6 +51,7 @@ export const CountryPage = () => {
                             topLevelDomain={item.topLevelDomain[0]}
                             currencie={item.currencies && item.currencies}
                             languages={item.languages}
+                            
                             borders={item.borders}
                         />)
                     })

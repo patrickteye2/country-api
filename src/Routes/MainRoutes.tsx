@@ -6,6 +6,6 @@ export const MainRoutes = () => {
     return useRoutes([
         {path:'/', element: <Countries />},
         {path:'/country/:name', element: <CountryPage />},
-        {path:'/code/:code', element: <CountryPage />}
+        {path:'/code/:code', element: <CountryPage />},
     ])
 }

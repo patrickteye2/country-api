@@ -58,7 +58,9 @@ export const CountryData = styled.div<{theme: string}>`
                     align-items: center;
                     cursor: pointer
                     font-size: 13px;
-                    font-weight: 300;box-shadow: 1px 1px 1em rgba(0, 0, 0, 0.2)
+                    font-weight: 500;
+                    box-shadow: 1px 1px 1em rgba(0, 0, 0, 0.2);
+                    padding: 10px;
                 }
             }
         }
